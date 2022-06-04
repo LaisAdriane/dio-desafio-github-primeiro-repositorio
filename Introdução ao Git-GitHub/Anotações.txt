@@ -1,3 +1,33 @@
 Link para download do Git: https://git-scm.com/downloads
 
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+--> COMANDOS
+
+Comandos para serem executados quando tem uma alteração no arquivo:
+
+1) git add * (comando git add adiciona uma alteração no diretório ativo à área de staging)
+2) git commit -m "mensagem" (Commit é um processo simples que adiciona as alterações para o histórico do repositório e atribui um nome ao commit. E você pode adicionar uma mensagem.)
+3) git push origin main/master (O git push é a parte que diz que queremos enviar o que temos de commits na nossa máquina para o repositório remoto)
+
+
+Comandos gerais
+
+git status
+git init (cria um repositório)
+git config --list (mostra as configurações cadastradas)
+git remote add origin link (indica o repositório remoto do GitHub)
+git remote -v (lista os repositórios remotos que tem cadastrado)
+git clone link (vai clonar o repositório)
+
+
+ls (lista as pastas)
+ls -a (lista as pastas ocultas)
+ctrl + L (limpa o ambiente de trabalho)
+clear (limpa o ambiente de trabalho)
+cd pasta/ (entra no local escolhido do sistema)
+cd .. (retrocede um nível)
+tab (completa a frase)
+mkdir (cria um pasta nova)
+echo xxx (ele repete o que você escrever)
+echo xxx > xxx.txt (ele cria um arquivo com o que você escreveu)
